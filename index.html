@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laiba Hasan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/src/images/ini.jpg">src\images\ini.jpg
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <button class="navbar-toggler" type="button" onclick="toggleNav()" id="tg-button">
+        <i class="bi bi-x-lg hidden" id="cross-option" style="font-size: 4vh;"></i>
+        <i class="bi bi-list" id="list-option" style="font-size: 4vh;"></i>
+    </button>
+    <button class="arrow" id="scroll-up">
+        <i class="bi bi-arrow-up-circle" style="font-size: 4vh;"></i>
+    </button>
+    <button class="arrow" id="scroll-down">
+        <i class="bi bi-arrow-down-circle" style="font-size: 4vh;"></i>
+    </button>
+    <div class="sidebar" id="sidebar">
+        <img src="src/images/self.jpeg" id="Self-Image" alt="Self-Image" loading="lazy">
+        
+        <a href="#section1">
+            <i class="bi bi-house-door" style="font-size: 2.5vh;"></i>
+            <Span >Home</Span></a>
+        <a href="#section2">
+            <i class="bi bi-person-circle" style="font-size: 2.5vh;"></i>
+            <span>About</span></a>
+        <a href="#section4">
+            <i class="bi bi-code-slash" style="font-size: 2.5vh;"></i>
+            <span>Projects</span></a>
+        <a href="#section5">
+            <i class="bi bi-gear" style="font-size: 2.5vh;"></i>
+            <span>Skills</span></a>
+        <a href="#section6">
+            <i class="bi bi-journal-bookmark" style="font-size: 2.5vh;"></i>
+            <span>Education</span></a>
+        <a href="#section7">
+            <i class="bi bi-award" style="font-size: 2.5vh;"></i>
+            <span>Achievements</span></a>
+        <a href="#section8">
+            <i class="bi bi-person-lines-fill" style="font-size: 2.5vh;"></i>
+            <span>Contact</span></a>
+        <button class="resume btn btn-outline-light" onclick="window.location.href='https://drive.google.com/file/d/1A1DdLV9ClpPmpPrZeBRkE_dGHEgJvMxu/view?usp=sharing'" " style="font-size: 2.5vh;">Download CV</button>
+        <div class="extra-option">
+            <a href="https://github.com/laibaahasan" target="_blank">
+                <i class="bi bi-github" style="font-size: 2.5vh;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/laiba-h-16570023b" target="_blank">
+                <i class="bi bi-linkedin" style="font-size: 2.5vh;"></i>
+            </a>
+            <a href="mailto:coolaiba24@gmail.com">
+                <i class="bi bi-envelope-at" style="font-size: 2.5vh;"></i>
+            </a>
+            <button class="mode-toggle-button" onclick="toggleTheme()" id="theme-toggle">
+                <i class="bi bi-moon-stars-fill" id="dark-icon" style="font-size: 2.5vh;"></i>
+                <i class="bi bi-sun-fill hidden" id="light-icon" style="font-size: 2.5vh;"></i>
+            </button>
+        </div>
+    </div>
+    <div class="main-content">
+        <div id="section1" class="section">
+            <h1><span class="span-t">Hello</span>, I am</h1>
+            <h1 style="font-size: 10vh; border-bottom: 3px solid var(--span-text); display: inline;">Laiba Hasan</h1>
+            <p>An aspiring final-year ECE student at <span class="span-t">Jamia Millia Islamia, New Delhi</span>.</p>
+            <div class="social-qlinks">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+            <div class="home-buttons">
+                <button class="main-btn" onclick="window.location.href='https://drive.google.com/file/d/1A1DdLV9ClpPmpPrZeBRkE_dGHEgJvMxu/view?usp=sharing'">Download CV</button>
+                <button class="main-btn" onclick="location.href='#section8'">Contact Me</button>
+            </div>
+        </div>
+        <div id="section2" class="section">
+            <h1><span class="span-t bold">About</span></h1>
+            <div class="about-body">
+                <div class="about-text">
+                    <p>
+                       <br> <br>I am <b>Laiba Hasan</b>, an enthusiastic Electronics and Communication Engineering student in my final year at Jamia Millia Islamia, New Delhi.<br><br>
+                        With a CGPA of 8.43, I’ve spent my time diving into the world of code, building projects that merge creativity with technology. <br>From developing a dynamic Social Blog to creating a real-time Global Currency Converter and an interactive music player, <b>I thrive on turning ideas into functional realities</b>.<br><br>
+                        I’m also proud to contribute to my university's Robotics Society as part of the HR team, and I've gained certifications in web development and data structures along the way. 
+                        <br><br>Let’s connect and explore the limitless possibilities of innovation together!<br>
+                        Feel free to reach out through my GitHub, LinkedIn, or LeetCode profiles.</p>
+                    <div class="info">
+                        <ul id="info-list">
+                            <li><span class="span-t">Experience : </span>Fresher</li>
+                            <li><span class="span-t">Qualification : </span>Bachelor's of Technology - ECE</li>
+                            <li><span class="span-t">Location : </span>New Delhi, India</li>
+                            <li><span class="span-t">Phone : </span>+91 6387641126</li>
+                            <li><span class="span-t">Email : </span>coolaiba24@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="src/images/self.jpeg" alt="Self-Image" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <div id="section4" class="section">
+            <h1><span class="span-t bold">Projects</span></h1>
+            <p></p>
+            <div class="pro">
+                <div class="pro-card">
+                    <h2>Social Blog | Web Development</h2>
+                    <ul>
+                        <li>July' 2024</li>
+                    </ul>
+                    <p >◦ A web app built with <b>React JS </b>that allows users to write and explore thoughts and ideas.<br>
+                        ◦ It features secure <b>login functionality and integrates with a MySQL database</b> to manage user
+                        credentials and display post information in real-time, providing an interactive UI.   </p>
+                    <div class="pro-links">
+                        <a href="https://github.com/laibaahasan" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github" style="font-size: 2.5vh;"></i>
+                            Repository</a>
+                    </div>
+                    <ul class="hashtags">
+                        <li>React JS</li>
+                        <li>MySql</li>
+                    </ul>
+                </div>
+                <div class="pro-card">
+                    <h2>Global Currency Converter</h2>
+                    <ul>
+                        <li>March' 2024</li>
+                    </ul>
+                    <p>◦ Implemented <b>real-time currency conversion functionality</b> based on live exchange rates.<br>
+                        ◦ Designed an intuitive UI with dropdown menus for selecting currencies, enhanced by country
+                        flags for clear identification.<br>
+                        ◦ Utilized JavaScript for <b>DOM manipulation</b> to display real-time conversion results.   </p>
+                    <div class="pro-links">
+                        <a href="https://github.com/laibaahasan" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github" style="font-size: 2.5vh;"></i>
+                            Repository</a>
+                    </div>
+                    <ul class="hashtags">
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pro hidden" id="more-pro"> 
+                <div class="pro-card">
+                    <h2>Web-based Music Player Interface</h2>
+                    <ul>
+                        <li>Feb' 2024</li>
+                    </ul>
+                    <p>◦ Developed a responsive music player with intuitive navigation and dynamic playback controls,
+                        featuring Font Awesome icons for a modern design.    </p>
+                    <div class="pro-links">
+                        <a href="https://github.com/laibaahasan" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github" style="font-size: 2.5vh;"></i>
+                            Repository</a>
+                    </div>
+                    <ul class="hashtags">
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+                <div class="pro-card">
+                    <h2>Rock Paper Scissors Game</h2>
+                    <ul>
+                        <li>Jan' 2024</li>
+                    </ul>
+                    <p>◦ Implemented a responsive game that tracks user and computer scores dynamically using JavaScript,
+                        enhancing user experience with real-time game status messages  </p>
+                    <div class="pro-links">
+                        <a href="https://github.com/laibaahasan" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github" style="font-size: 2.5vh;"></i>
+                            Repository</a>
+                    </div>
+                    <ul class="hashtags">
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+               
+            </div>
+            <button class="load-more-pro" onclick="togglePro()">Show More</button>
+        </div>
+        <div id="section5" class="section">
+            <h1><span class="span-t bold">Skills</span></h1>
+            <div class="skills-list" id="skills-list"></div>
+        </div>
+        <div id="section6" class="section">
+            <h1><span class="span-t bold">Education</span></h1>
+            <div class="exp">
+                <div class="exp-card">
+                    <h2>Bachelor's of Technology | Electronics and Communication Engineering</h2>
+                    <ul>
+                        <li>Jamia Millia Islamia, New Delhi, India</li>
+                        <li>June'2025</li>
+                    </ul>
+                    <p>Average GPA : <b>8.43</b></p>
+                </div>
+                <div class="exp-card">
+                    <h2>Class 12th | CBSE</h2>
+                    <ul>
+                        <li>Modern Public School, Noida, India</li>
+                        <li>Mar' 2020</li>
+                    </ul>
+                    <p>Percentage : <b>90.2% </b></p>
+                </div>
+                <div class="exp-card">
+                    <h2>Class 10th | CBSE</h2>
+                    <ul>
+                        <li>Modern Public School, Noida, India</li>
+                        <li>Mar' 2018</li>
+                    </ul>
+                    <p>Percentage : <b>93.2%</b></p>
+                </div>
+            </div>
+        </div>
+        <div id="section7" class="section">
+            <h1><span class="span-t bold">Achievements</span></h1>
+         
+            <p>- Courses</p>
+            <div class="acad-ach-area">
+                <div class="ach-card" onclick="window.open('https://drive.google.com/file/d/1X8IV00eVXSwc6KN-ZohbEITNaMgIckoa/view', '_blank');">
+                    <img class="card-img" src="src/certificates/WebDeveloper.png" alt="" loading="lazy">
+                    <p class="card-title">The Web Developer Bootcamp</p>
+                </div>
+                <div class="ach-card" onclick="window.open('https://drive.google.com/file/d/1aOf9ksCZiTsGQrLykMESJwHiaqlY9i2x/view', '_blank');">
+                    <img class="card-img" src="src/certificates/DSA.png" alt="" loading="lazy">
+                    <p class="card-title">Data Structures and Algorithms Essentials using C++</p>
+                </div>
+            </div>
+            <p>- Co-Curricular Achievements</p>
+            <div class="acad-ach-area">
+                <div class="ach-card" onclick="window.open('https://drive.google.com/file/d/13fGD4FvXl_KigdUmQsks6zuHOKzlCKq0/view', '_blank');">
+                    <img class="card-img" src="src/certificates/atheletics.png" alt="" loading="lazy">
+                    <p class="card-title">Atheletics Runner Up | CRESCENTIA - Sports Fest JMI 2024</p>
+                </div>
+                <div class="ach-card" onclick="window.open('https://drive.google.com/file/d/1QO72kdO47ueiXfBedNF0a6zeUdcqu-v2/view', '_blank');">
+                    <img class="card-img" src="src/certificates/cricket.png" alt="" loading="lazy">
+                    <p class="card-title">Gully Cricket Winner | CRESCENTIA - Sports Fest JMI 2024</p>
+                </div>
+            </div>
+           
+        </div>
+        <div id="section8" class="section">
+            <h1><span class="span-t bold">Contact</span></h1>
+            <div class="contact-area">
+                <div class="contact-card whatsapp" onclick="window.open('https://wa.me/+916387641126', '_blank')">
+                    <i class="bi bi-whatsapp"></i>
+                    <span class="link">+91 6387641126</span>
+                </div>
+                <div class="contact-card gmail" onclick="window.open('mailto:coolaiba24@gmail.com')">
+                    <i class="bi bi-envelope"></i>
+                    <span class="link">coolaiba24@gmail.com</span>
+                </div>
+                <div class="contact-card gmail" onclick="window.open('mailto:laibahasan66@gmail.com')">
+                    <i class="bi bi-envelope"></i>
+                    <span class="link">laibahasan66@gmail.com</span>
+                </div>
+                <div class="contact-card git" onclick="window.open('https://github.com/laibaahasan', '_blank')">
+                    <i class="bi bi-github"></i>
+                    <span class="link">Github laibaahasan</span>
+                </div>
+                <div class="contact-card linkedin" onclick="window.open('https://www.linkedin.com/in/laiba-h-16570023b/', '_blank')">
+                    <i class="bi bi-linkedin"></i>
+                    <span class="link">LinkedIn Laiba Hasan</span>
+                </div>
+                <div class="contact-card leetcode" onclick="window.open('https://leetcode.com/u/_laiba_/', '_blank')">
+                    <i class="bi bi-code-slash"></i>
+                    <span class="link">Leetcode Laiba Hasan</span>
+                </div>
+        </div>
+    </div>
+    <div class="footer" style="margin: 2vh  0 0 0; padding: 1vh 0;">
+       <!-- <p style="color: var(--text-color); text-align: center;">Designed and Developed </i> by <span class="span-t"><b>Md Yasir Khan</b></span></p>
+  -->  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
